@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract
 {
-    //Dotnette Dal=>Data Access Layer  Javada Dao=>Data Access Object
-    public interface IProductDal : IEntityRepository<Product>
+    public interface ICustomerDal : IEntityRepository<Customer>
     {
     }
 }
